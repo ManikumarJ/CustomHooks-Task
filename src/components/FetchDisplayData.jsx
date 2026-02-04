@@ -18,7 +18,7 @@ const FetchDisplayData = () => {
             <img src={product.thumbnail} alt={product.title} className="w-full h-44 object-cover rounded-t-xl"/>
 
             <div className="p-4 space-y-2">
-              <h2 className="text-lg font-semibold truncate">
+              <h2 className="text-lg font-semibold ">
                 {product.title}
               </h2>
               <p className="text-sm text-slate-600">
